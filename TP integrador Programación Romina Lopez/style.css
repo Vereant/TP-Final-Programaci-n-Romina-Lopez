@@ -1,0 +1,590 @@
+*{
+    font-family: "Roboto", sans-serif;
+    /*
+    font-family: "Oswald", sans-serif; */
+}
+
+body{
+    background-color: rgb(25, 25, 26);
+    background-image: url(imagenes/dark-red-smart-blurred-template-gradient-abstract-illustration-with-blurred-colors-background-for-cell-phones-vector.jpg);
+}
+
+/*NAVEGADOR*/
+
+header{
+    width: 100%;
+    height: 15vh;
+}
+
+#LogoPrincipal{
+    width: 80px;
+    height: 14vh;
+    border-radius: 30px;
+    margin-left: 110px;
+    background-color: rgba(212, 0, 0, 0.452);
+    margin-top: -18px;
+}
+
+nav{
+    background-color: 171, 211, 243;
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 10px;
+    
+}
+
+nav ul{
+    width: 60%;
+    margin-left: 355px;
+    margin-top: 20px;
+}
+
+nav li{
+    display: flex;
+    flex-direction: row;
+    display:inline;
+}
+
+nav a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+#menuPrincipal a:hover{
+    color: rgb(25, 38, 156);
+    width: max-content;
+    border-radius: 5px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif; 
+    
+}
+
+/*PÁGINA PRINCIPAL*/
+
+#section1{
+    width: 100%;
+    height: 80vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+#Spidey{
+    width: 83%;
+    margin-top: -20px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 10px;
+    display: flex;
+    float: right;
+}
+
+#section1 h1{
+    width: 78%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    margin-left: 125px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+#section1 div{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-top: 20px;
+}
+
+#PS5{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.452);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+#PS5 h1{
+    font-family: "Oswald", sans-serif;
+}
+
+#PS5 p{
+    margin-top: -10px;
+}
+
+#PS5 a{
+    width: 20%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Oswald", sans-serif;
+    margin-top: -3px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#PS5 svg{
+    margin-left: 200px; 
+}
+
+#Venom{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.452);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+#Venom h1{
+    font-family: "Oswald", sans-serif;
+}
+
+#Venom p{
+    margin-top: -10px;
+    width: 95%;
+}
+
+#Venom img{
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 75px;
+    margin-top: 3px;
+}
+
+#Venom a{
+    width: 95%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Oswald", sans-serif;
+    margin-top: 5px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    align-content: center;
+    border-radius: 10px;
+}
+
+#black{
+   margin-left: 130px;
+   color: black;
+}
+
+#section2{
+    background-color: rgb(97, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#section2 article{
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 40%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+#section2 img{
+    width: 260px;
+    border-radius: 20px;
+}
+
+#section2 div{
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+#section2 h1{
+    font-family: "Oswald", sans-serif;
+}
+
+#section2 p{
+    margin-top: -15px;
+}
+
+/*INICIA SESION*/
+
+.formulario{
+    width: 40%;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.164);
+}
+
+.formulario a{
+    border-radius: 7px;
+    height: 10px;
+    width: 15px;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.164);
+    text-decoration: none;
+    color: white;
+}
+
+/*REGISTRO*/
+
+#registro{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.formulario2{
+    background-color: rgba(0, 0, 0, 0.164);
+    width: 30%;
+    height: 360px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.formulario2 a{
+    border-radius: 7px;
+    height: 10px;
+    width: 15px;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.164);
+    text-decoration: none;
+    color: white;
+}
+
+.caja2{
+    width: 20%;
+}
+
+.caja2 img{
+    width:100%;
+    height: 438px;
+    opacity: 90%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+input{
+    border-radius: 10px;
+}
+
+/*PRODUCTOS*/
+
+#productos{
+    background-color: rgba(0,0,0,0.5);
+    width: 80%;
+    height: 60vh;
+    margin-left: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#productos article{
+    background-color: rgba(2, 0, 22, 0.836);
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+#productos img{
+    width: 200px;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+#productos h2{
+    width: 100%;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+#productos h3{
+    width: 100%;
+    font-size: large;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: rgb(243, 243, 243);
+}
+
+#pro1 h2{
+    margin-top: 20px; 
+}
+
+#pro1 h3{
+    margin-top: -10px;
+}
+
+#pro2 img{
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+
+#pro2 h2{
+    margin-top: 45px; 
+}
+
+#pro2 h3{
+    margin-top: -10px;
+}
+
+#pro3 img{
+    height: 180px;
+}
+
+#pro3 h2{
+    margin-top: 20px; 
+}
+
+#pro3 h3{
+    margin-top: -10px;
+}
+
+#vermas{
+    background-color: rgba(2, 0, 22, 0.836);
+    width: 80px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 620px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+#vermas a{
+    text-decoration: none;
+    color: white;
+}
+
+#publicidad{
+    background-color: gray;
+    width: 50%;
+    height: 30vh;
+    margin-left: 320px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#publicidad img{
+    width: 150px;
+    display: flex;
+    margin: 30px;
+    margin-top: 10px;
+}
+
+#publicidad div{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 150px;
+}
+
+/*ENCUESTAS*/
+
+#SectionEncuestas{
+    background-image: url(imagenes/spider-man-rain-4k-ww433qdbmh1ia05z.jpg);
+    width: 50%;
+    border-radius: 20px;
+    color: white;
+    margin-left: 330px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#SectionEncuestas article{
+    width: 95%;
+    padding: 20px;
+}
+
+#welcome{
+    width: 100%;
+    margin-bottom: -50px;
+}
+
+#welcome h1{
+    font-size: 30px;
+    margin-top: -3px;
+}
+
+#SectionEncuestas h2{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    margin-bottom: 30px;
+}
+
+#SectionEncuestas p{
+    font-family:"Oswald", sans-serif; 
+    font-size: larger;
+    color: white;
+    margin-top: 30px;
+}
+
+#SectionEncuestas label{
+    color: rgb(202, 216, 255);
+}
+
+#Enviar{
+    margin-left: 45%;
+    margin-top: 20px;
+    color: blue;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif ;
+    border-radius: 15px;
+}
+
+/*QUIZ*/
+
+#Quiz{
+    width: 90%;
+    height: 95vh;
+    background-color: rgba(0, 0, 0, 0.452);
+    margin-left: 45px;
+    padding: 20px;
+}
+
+#Quiz h2{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#Quiz img{
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+#Quiz a{
+    text-decoration: none;
+}
+
+#Quiz article{
+    background-color: rgba(0,0,0,0.5);
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: -5px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#quiztop{
+    margin: 20px;
+    margin-left: 30px;
+    margin-right: -10px;
+    display: flex;
+    
+}
+
+#quizbottom{
+    width: 70%;
+    margin-right: 100px;
+    margin-left: 350px;
+}
+
+#quizbottom img{
+    margin-left: 40px;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    background:rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.red{
+    list-style: none;
+    float: left;
+}
+
+.red svg{
+    border-radius: 20px;
+    background-color: rgb(255, 108, 108);
+    color: black;
+    width: 40px;
+    height: 30px;
+    padding-block: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#Copyright{
+    margin-top: 3px;
+}
