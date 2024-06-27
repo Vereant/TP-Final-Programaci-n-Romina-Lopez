@@ -495,10 +495,11 @@ input{
 
 #Quiz{
     width: 90%;
-    height: 95vh;
-    background-color: rgba(0, 0, 0, 0.452);
+    height: 110vh;
+    background-color: rgba(0, 0, 0, 0.164);
     margin-left: 45px;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 #Quiz h2{
